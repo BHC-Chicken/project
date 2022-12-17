@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 @Entity(name = "pharmacy")
 @Getter
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class Pharmacy {
 
     @Id
@@ -24,5 +24,4 @@ public class Pharmacy {
     private String pharmacyAddress;
     private double latitude;
     private double longitude;
-
 }
